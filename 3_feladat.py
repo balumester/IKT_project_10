@@ -1,4 +1,2 @@
-print(3.feladat)
-a='*O'
-print(5*a)
-print(5*a)
+print('*o*o*o*o*o')
+print('*o*o*o*o*o')
