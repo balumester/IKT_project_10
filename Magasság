@@ -1,0 +1,7 @@
+cm=int(input('Milyen magas vagy?'))
+if(170>cm):
+  print('170 cm alatt te törpe vagy')
+elif(180<cm):
+  print('180 cm felett te óriás vagy')
+else:
+  print('Te átlagos vagy')
