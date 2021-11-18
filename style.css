@@ -2,15 +2,15 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Open Sans'
+    font-family: 'Open Sans';
 }
 
 .newsletter {
     color: grey;
     border: solid thin #cfcfcf;
     border-radius: 3px;
-    padding: 10 px;
-    padding-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
     position: relative;
 }
 
