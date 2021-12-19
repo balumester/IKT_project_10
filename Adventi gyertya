@@ -1,0 +1,40 @@
+datum=int(input('2021 december hanyadika van?'))
+hatra=24-datum
+print(hatra,'nap van még karácsonyig. ÉRTED??? MÉG', hatra,' NAP VAN!!!')
+#1. gyertya november 28-a óta, 2. gyertya december 5-e (19), 3. gyertya 12-e (12-18), 4. gyertya 19-e óta ég
+
+print('Az eddig meggyújtott adventi gyertyák:')
+input('A továbblépéshez üss le egy ENTER-t')
+if(hatra>19):
+   print(r"""
+         ___)___ 
+        | Béke  |
+        |       |
+        |       |
+        |_______|
+        """)
+elif(hatra<=19 and hatra>12):
+    print(r"""
+         ___)___    ___)___ 
+        | Béke  |  |  Hit  |
+        |       |  |       |
+        |       |  |       |
+        |_______|  |_______|
+        """)
+elif(hatra<=12 and hatra>5):
+    print(r"""
+         ___)___    ___)___    ___)___ 
+        | Béke  |  |  Hit  |  |Szere- |
+        |       |  |       |  |  tet  |
+        |       |  |       |  |       |
+        |_______|  |_______|  |_______|
+        """)
+else:
+    print(r"""
+         ___)___    ___)___    ___)___    ___)___
+        | Béke  |  |  Hit  |  |Szere- |  |Remény |
+        |       |  |       |  |  tet  |  |       | 
+        |       |  |       |  |       |  |       |
+        |_______|  |_______|  |_______|  |_______|
+        """)
+
